@@ -9,9 +9,8 @@ public class FVCalc {
 
 		double newInterest = interest/100;
 		double value = current * Math.pow((1 + newInterest) ,n);
-		
-		System.out.println((int) value);
-		System.out.println("After " + (int)n + " years, $" + (int)current + " saved at " + interest + "% will yield " + (int)value + ".");
+
+		System.out.println("After " + (int)n + " years, $" + (int)current + " saved at " + interest + "% will yield $" + (int)value);
 
 	}
 }
