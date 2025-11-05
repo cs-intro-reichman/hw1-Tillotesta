@@ -12,6 +12,6 @@ public class Bill3 {
 		
 		
 		
-		System.out.println("The share for " + name3 +" "+ name2 +" and "+ name1 +" "+ "is: " + finalbill + " Shekels each.");
+		System.out.println("Dear " + name3 +", "+ name2 +", and "+ name1 +": pay "+ finalbill + " Shekels each.");
 	}
 }
