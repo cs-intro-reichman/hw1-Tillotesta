@@ -35,5 +35,7 @@ public class TimeFormat {
 		}	
 		
 		System.out.println(display+":"+minutes+"  "+ampm);
+
+		//TimeFormat 10:15    10:15 AM
 	}
 }
