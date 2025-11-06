@@ -5,7 +5,6 @@ public class Ascend {
 		
 		int range = Integer.parseInt(args[0]);
 		
-
 		int a = (int) (Math.random() * range);
 		int b = (int) (Math.random() * range);
 		int c = (int) (Math.random() * range);

@@ -6,7 +6,6 @@ public class FVCalc {
 		double interest = Double.parseDouble(args[1]);
 		double n = Double.parseDouble(args[2]);
 		
-
 		double newInterest = interest/100;
 		double value = current * Math.pow((1 + newInterest) ,n);
 
