@@ -28,7 +28,7 @@ public class TimeFormat {
 			display = 0;
 			ampm = "AM";
 		
-		} else if (hours < 12) {
+		} else if (hours < 13) {
 			display = hours;
 			ampm = "AM";
 
@@ -43,6 +43,6 @@ public class TimeFormat {
 		
 		System.out.println(display+":"+str+" "+ampm);
 
-		//TimeFormat 10:15    10:15 AM
+		
 	}
 }
