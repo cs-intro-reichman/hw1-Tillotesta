@@ -16,6 +16,13 @@ public class TimeFormat {
 
 		String ampm;
 		int display;
+		
+		String str = String.valueOf(minutes);
+		
+		if (minutes < 10) {
+			str = "0" + str;
+		}
+
 
         if (hours == 0) {
 			display = 0;
@@ -34,7 +41,7 @@ public class TimeFormat {
 			ampm = "PM";
 		}	
 		
-		System.out.println(display+":"+minutes+"  "+ampm);
+		System.out.println(display+":"+str+" "+ampm);
 
 		//TimeFormat 10:15    10:15 AM
 	}
