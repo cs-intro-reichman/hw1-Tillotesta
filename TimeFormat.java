@@ -42,7 +42,7 @@ public class TimeFormat {
 		}	
 		
 		System.out.println(display+":"+str+" "+ampm);
-//::error::The output for test TimeFormat test 2: Args (12:03) did not match%0AExpected:%0A12:03 PM%0AActual:%0A12:03 AM
+
 		
 	}
 }
